@@ -1,0 +1,16 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.7",
+  "package": "me.imtoggle.camerautils.mixin",
+  "refmap": "mixins.camerautils.refmap.json",
+  "injectors": {
+    "maxShiftBy": 5
+  },
+  "verbose": true,
+  "client": [
+    "MixinEntityRenderer"
+  ],
+  "mixins": [
+    "HotbarScrolling"
+  ]
+}
